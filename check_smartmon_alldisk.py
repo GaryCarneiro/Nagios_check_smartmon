@@ -3,7 +3,7 @@
 """
 __author__ = Garfield Carneiro
 Running script in debug mode
-[gary@myserver ~]$ ./check_smartmon_cmd.py  --debug
+[gary@myserver ~]$ ./check_smartmon_alldisk.py  --debug
 Mon Mar 14 20:37:06 2016 Valid Disks are ['/dev/sdl', '/dev/sdj', '/dev/sdk', '/dev/sdh', '/dev/sdi', '/dev/sdf', '/dev/sdg', '/dev/sdd', '/dev/sde', '/dev/sdb', '/dev/sdc', '/dev/sda']
 Mon Mar 14 20:37:06 2016 Checking /dev/sdl
 Mon Mar 14 20:37:07 2016 Result of [/usr/bin/sudo /usr/sbin/smartctl -Hc /dev/sdl] : [SMART overall-health self-assessment test result: PASSED]
